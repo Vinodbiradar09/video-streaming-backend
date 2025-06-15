@@ -40,13 +40,13 @@ package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
-# Temporary files
-temp/
-tmp/
+# # Temporary files
+# temp/
+# tmp/
 
-# Uploads directory
-public/uploads/
-public/temp/
+# # Uploads directory
+# public/uploads/
+# public/temp/
 
-# Cloudinary files (if any)
-cloudinary_export.json
+# # Cloudinary files (if any)
+# cloudinary_export.json
