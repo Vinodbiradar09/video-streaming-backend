@@ -1,6 +1,41 @@
-Summary of this project
+📺 Video Streaming Backend
+A scalable, full-featured backend for a YouTube-like video streaming platform, built using Node.js, Express, and MongoDB. This backend handles authentication, video management, user interactions (like/subscribe/comments), and follows industry-standard practices like token-based authentication, modular structure, and secure password handling.
 
-This project is a complex backend project that is built with nodejs, expressjs, mongodb, mongoose, jwt, bcrypt, and many more. This project is a complete backend project that has all the features that a backend project should have. We are building a complete video hosting website similar to youtube with all the features like login, signup, upload video, like, dislike, comment, reply, subscribe, unsubscribe, and many more.
+🚀 Features
+🔐 JWT-based Auth (Access & Refresh Tokens)
 
-Project uses all standard practices like JWT, bcrypt, access tokens, refresh Tokens and many more. We have spent a lot of time in building this project and we are sure that you will learn a lot from this project.
+🔑 Secure password hashing with Bcrypt
+
+📦 Video & thumbnail uploads (via Cloudinary)
+
+📹 Video CRUD: upload, update, delete, fetch
+
+👍🏻 Likes / 👎🏻 Dislikes system
+
+💬 Comments & Replies
+
+👥 Subscriptions (Subscribe / Unsubscribe)
+
+🔎 Search, Filter, and Pagination
+
+🧾 Robust MongoDB aggregations
+
+🍪 Cookie-based token storage
+
+🔄 Token refresh mechanism
+
+🧠 Modular architecture
+
+🛠️ Tech Stack
+Backend: Node.js, Express.js
+
+Database: MongoDB, Mongoose
+
+Authentication: JWT (Access & Refresh Tokens), Bcrypt
+
+File Uploads: Multer, Cloudinary
+
+Security: Cookie Parser, CORS
+
+Pagination: mongoose-aggregate-paginate-v2
 
